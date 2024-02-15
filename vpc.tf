@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("C:/Users/aniruth.s/Downloads/stldigital-monitoring-0993bbb88702.json")
+  credentials = file("/var/lib/jenkins/gcp-credentials/stldigital-monitoring-0993bbb88702.json")
   project     = "stldigital-monitoring"
   region      = "us-central1"
 }
